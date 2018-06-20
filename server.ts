@@ -28,6 +28,6 @@ app.get('/caesar/:input/:key', (req: Request, res: Response) => {
   res.send(output);
 });
 
-app.get('/caesar', (req: Request, res: Response) => {
-  res.render('caesar');
-});
+// app.get('/caesar', (req: Request, res: Response) => {
+//   res.render('caesar');
+// });

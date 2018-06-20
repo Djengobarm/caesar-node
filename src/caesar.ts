@@ -3,7 +3,7 @@ export const lastPosition = abc.length - 1;
 
 export function caesar(input: string, key: number): string {
 
-  // weird hacks... even my IDE says "wat?" and highlights it with yellow
+  // weird hacks in action... even my IDE says "wat?" and highlights it with yellow
   key = key * 1;
 
   if ( key > lastPosition ) {
